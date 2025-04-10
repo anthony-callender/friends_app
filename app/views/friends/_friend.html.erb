@@ -1,4 +1,4 @@
-<div id="<%= dom_id friend %>">
+<div class="friend-details">
   <p>
     <strong>First name:</strong>
     <%= friend.first_name %>
@@ -23,5 +23,23 @@
     <strong>Twitter:</strong>
     <%= friend.twitter %>
   </p>
-
 </div>
+
+<style>
+.friend-details {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.friend-details p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.friend-details strong {
+  color: #495057;
+  margin-right: 10px;
+}
+</style> 
